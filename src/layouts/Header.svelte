@@ -17,7 +17,7 @@
                 >
                     <img
                         class="shadow-lg w-[200px] h-[200px] rounded-md object-cover object-center border-2 border-gray-700"
-                        src="/src/assets/images/profile.jpg"
+                        src="/assets/images/profile.jpg"
                         alt=""
                     />
                 </div>

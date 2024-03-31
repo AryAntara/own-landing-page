@@ -6,11 +6,11 @@
     
     const path = window.location.pathname
     let Page = router.render(path);
-    
+
 </script>
 <main class="px-[50px] w-100 bg-gray-50" >
   <Header></Header>
-  <svelte:component this={Page} />  
+  <svelte:component this={Page} path={path} />  
   <Footer></Footer>
 </main>
 
