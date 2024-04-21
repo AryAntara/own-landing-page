@@ -6,6 +6,7 @@ import Contact from "./pages/Contact.svelte";
 import Blog from "./pages/Blog.svelte";
 
 router.register({
+    isMenu: true,
     path: "/", 
     component: Home, 
     name: "Home",
@@ -13,6 +14,7 @@ router.register({
 })
 
 router.register({
+    isMenu: true,
     path: "/projects", 
     component: Project, 
     name: "Projects", 
@@ -20,6 +22,7 @@ router.register({
 })
 
 router.register({
+    isMenu: true,
     path: "/blog",
     component: Blog, 
     name: "Blogs",
@@ -27,6 +30,7 @@ router.register({
 })
 
 router.register({
+    isMenu: true,
     path: "/contact", 
     component: Contact, 
     name: "Contact",
@@ -35,6 +39,7 @@ router.register({
 })
 
 router.register({
+    isMenu: true,
     path: "/about", 
     component: About,
     name: "About",
