@@ -1,9 +1,9 @@
 import type { SvelteComponent } from "svelte";
 
-import TypescriptIcon from "../pages/project_component/Icons/typescript.svelte";
-import SvelteIcon from "../pages/project_component/Icons/svelte.svelte"
-import PHPIcon from "../pages/project_component/Icons/php.svelte"
-import LaravelIcon from "../pages/project_component/Icons/laravel.svelte"
+import TypescriptIcon from "../components/Icons/typescript.svelte";
+import SvelteIcon from "../components/Icons/svelte.svelte"
+import PHPIcon from "../components/Icons/php.svelte"
+import LaravelIcon from "../components/Icons/laravel.svelte"
 
 export type Project = {
     title: string,
@@ -35,6 +35,7 @@ export type LangIcon = {
     name: string,
     svgElement: SvelteComponent
 }
+
 export const projects: Array<Project> = [
     {
         title: 'Personal web',

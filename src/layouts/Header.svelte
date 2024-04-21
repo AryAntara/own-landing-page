@@ -17,7 +17,7 @@
                 >
                     <img
                         class="shadow-lg w-[200px] h-[200px] rounded-md object-cover object-center border-2 border-gray-700"
-                        src="/assets/images/profile.jpg"
+                        src="https://raw.githubusercontent.com/AryAntara/own-landing-page/main/public/images/profile.jpg"
                         alt=""
                     />
                 </div>
