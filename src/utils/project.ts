@@ -44,7 +44,7 @@ export const projects: Array<Project> = [
             typescriptIcon, svelteIcon
         ],
         webLink: 'http://localhost:5173',
-        sourceLink: 'github.com'
+        sourceLink: 'https://github.com/AryAntara/own-landing-page'
     },
     {
         title: 'Forstaff',
