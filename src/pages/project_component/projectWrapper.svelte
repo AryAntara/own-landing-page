@@ -16,7 +16,7 @@
         {/each}
     </div>
     <div class="flex justify-between mt-8">
-        <a href="{project.webLink ?? "#"}" class='{!project.webLink ? 'border-gray-400 text-gray-400' : 'border-black hover:bg-black hover:text-white'} border-2 rounded-xl p-2 font-semibold px-4' target="_blank">view</a>
-        <a href="{project.sourceLink ?? "#"}" class="{!project.sourceLink ? 'border-gray-400 text-gray-400' : 'border-black hover:bg-black hover:text-white'} border-2 rounded-xl p-2 font-semibold px-4" target="_blank">source</a>
+        <a href="{project.webLink ?? "#"}" class='{!project.webLink ? 'border-gray-400 text-gray-400' : 'border-black hover:bg-black hover:text-white'} border-2 rounded-xl p-2 text-xl px-4' target="_blank">view</a>
+        <a href="{project.sourceLink ?? "#"}" class="{!project.sourceLink ? 'border-gray-400 text-gray-400' : 'border-black hover:bg-black hover:text-white'} border-2 rounded-xl p-2 text-xl px-4" target="_blank">source</a>
     </div>
 </div>
